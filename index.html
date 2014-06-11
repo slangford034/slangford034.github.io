@@ -1,33 +1,120 @@
-<html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width">
 
-	<head>
-		<title>
-			Steven Langford
-		</title>
-
-		<style>
-
-			img	{
-				width: 300px;
-			}
-
-			h1	{
-				 color: teal;
-			}
-
-			body {
-				background: orange;
-			}
-
-		</style>
-
-	</head>
-
-	<body>
-		<h1>Steven Langford</h1>
-
-		<img src="img/me.jpg" alt="Steven Langford">
-
-	</body>
+  <title>Steven's Portfolio</title>
 	
+  <link rel="icon" href="css/favicon.ico">	
+  <link rel="stylesheet" href="css/normalize.css">				
+  <link rel="stylesheet" href="css/gallery.css">	 
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/grid.css">
+  <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>	
+	
+</head>
+<body>
+	
+	<div class="container">
+		
+		<!-- Your Content -->
+			<div class="topbox">
+				<nav>
+					<ul>
+						<li id="about"><a href="http://slangford034.github.io/Bio-Project1/">About &#183;</a></li>
+						<li id="work"><a href="http://slangford034.github.io/P4-Portfolio/">Portfolio &#183;</a></li>
+						<li id="history"><a href="http://slangford034.github.io/p2-resume/">Resume &#183;</a></li>
+						<li id="phone"><a href="https://slangford034.typeform.com/to/kj9CQ4">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+
+			<div class="grid_12">
+				<img src="img/Logo.svg">
+			</div>
+
+			<div class="grid_12">
+				<p id="paragraph">Graphic Design / Web Design / Illustration</p>
+				<hr>
+				<p>Phone: (509) 220-7029 | Email: slangford034@gmail.com</p>
+			</div>
+
+			<div class="gallery items-5">
+
+				  <!-- Containers for Images -->
+				  <div id="item-1" class="control-operator"></div>
+				  <div id="item-2" class="control-operator"></div>
+				  <div id="item-3" class="control-operator"></div>
+				  <div id="item-4" class="control-operator"></div>
+				  <div id="item-5" class="control-operator"></div>
+
+				  <!-- Images that fade in out & restacked with z-index -->
+				  <figure id="pantone" class="item">
+				    <img src="img/Pantone299C_Infographic.jpg">
+				  </figure>
+
+				  <figure  id="AID" class="item">
+				    <img src="img/AID_Poster_Ad.jpg">
+				  </figure>
+
+				  <figure  id="movie" class="item">
+				    <img src="img/movie.jpg">
+				  </figure>
+
+				  <figure  id="Geo" class="item">
+				    <img src="img/Geocell_Logo.png">
+				  </figure>
+
+				  <figure  id="Ties" class="item">
+				    <img src="img/Dye_Ties-copy.jpg">
+				  </figure>
+
+				  <!-- Jump Links to each image -->
+				  <div class="controls">
+				    <a href="#item-1" class="control-button">
+				    	<h3>Pantone 299C</h3>
+				    	<img src="img/Pantone299C_Infographic.jpg">
+				    	<p>Pantone 299C Infographic</p>
+				    </a>
+
+				    <a href="#item-2" class="control-button">
+				    	<h3>AID Poster</h3>
+				    	<img src="img/AID_Poster_Ad.jpg">
+				    	<p>Target Audience Design</p>
+				    </a>
+
+				    <a href="#item-3" class="control-button">
+				    	<h3>Top Gun 2</h3>
+						<img src="img/movie.jpg">
+						<p>Movie Poster Design</p>
+				    </a>
+
+				    <a href="#item-4" class="control-button">
+				    	<h3>Geocell Logo</h3>
+						<img src="img/Geocell_Logo.png">
+						<p>Target Audience Design</p>
+				    </a>
+
+				      <a  id="ties" href="#item-5" class="control-button">
+				      	<h3>Dye Ties</h3>
+						<img src="img/Dye Ties Thumb.jpg">
+						<p>EWU Bookstore Dye Ties Advertisement</p>
+				    </a>
+				  </div>
+
+				  <div class="footer">
+				  	<ul class="portfolio">
+				  		<li class="btn">
+				  			<a href="http://slangford034.carbonmade.com/">Carbonmade</a>
+				  		</li>
+				  	</ul>
+				  </div>
+			</div>
+	</div>
+
+		<!-- Clearfix -->
+		<div class="clear"></div>
+	
+</body>
 </html>
